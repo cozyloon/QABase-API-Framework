@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.cozyloon.api</groupId>
+    <groupId>com.cozyloon.api</groupId>
     <artifactId>api</artifactId>
     <version>1.0-a</version>
 
     <name>QECore.Api</name>
     <description>Api is a test automation framework based on rest assured Java. This framework makes rest assured easy to use.</description>
-    <url>https://github.com/cozyloon/</url>
+    <url>https://github.com/cozyloon/QABase-API-Framework</url>
 
     <licenses>
         <license>
@@ -29,9 +29,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/cozyloon/.git</connection>
-        <developerConnection>scm:git:ssh://github.com:cozyloon/.git</developerConnection>
-        <url>https://github.com/cozyloon/</url>
+        <connection>scm:git:git://github.com/cozyloon/QABase-API-Framework.git</connection>
+        <developerConnection>scm:git:ssh://github.com:cozyloon/QABase-API-Framework.git</developerConnection>
+        <url>https://github.com/cozyloon/QABase-API-Framework</url>
     </scm>
 
     <properties>
@@ -88,7 +88,6 @@
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <useReleaseProfile>false</useReleaseProfile>
                     <releaseProfiles>release</releaseProfiles>
-                    <generateReleasePoms>false</generateReleasePoms>
                     <goals>deploy</goals>
                 </configuration>
             </plugin>
